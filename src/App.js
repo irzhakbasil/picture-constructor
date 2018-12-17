@@ -53,17 +53,17 @@ class App extends Component {
           {/* this place can be used for some component in the future */}
           <Price />
           <div className="sliding-components">
-            <TransitionGroup>
-              <PageFade key={locationKey}>
-                <Switch location={this.props.location}>
-                  <Route exact path="/picture" component={IllustrationList} />
-                  <Route path="/frames" component={PictureFramesList} />
-                  <Route path="/text" component={TextInput} />
-                  <Route path="/preview" component={OrderPreviewPage} />
-                  <Route path="/fingerprints" component={FingerprintList} />
-                </Switch>
-              </PageFade>
-            </TransitionGroup>
+            {/*<TransitionGroup>
+              <PageFade key={locationKey}>*/}
+            <Switch location={this.props.location}>
+              <Route exact path="/picture" component={IllustrationList} />
+              <Route path="/frames" component={PictureFramesList} />
+              <Route path="/text" component={TextInput} />
+              <Route path="/preview" component={OrderPreviewPage} />
+              <Route path="/fingerprints" component={FingerprintList} />
+            </Switch>
+            {/*</PageFade>
+            </TransitionGroup>*/}
           </div>
           <div className="result-title">
             <p>Ваша картина</p>
