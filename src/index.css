@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 30px 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@font-face {
+	font-family: 'FS-regular';
+	src: url('./assets/fonts/firasans/firasans-regular-webfont.eot');
+	src: url('./assets/fonts/firasans/firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/firasans/firasans-regular-webfont.woff2') format('woff2'),
+		url('./assets/fonts/firasans/firasans-regular-webfont.woff') format('woff'),
+		url('./assets/fonts/firasans/firasans-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+		
+@font-face {
+	font-family: 'FS-light';
+	src: url('./assets/fonts/firasans/firasans-light-webfont.eot');
+	src: url('./assets/fonts/firasans/firasans-light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/firasans/firasans-light-webfont.woff2') format('woff2'),
+		url('./assets/fonts/firasans/firasans-light-webfont.woff') format('woff'),
+		url('./assets/fonts/firasans/firasans-light-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FS-medium';
+	src: url('./assets/fonts/firasans/firasans-medium-webfont.eot');
+	src: url('./assets/fonts/firasans/firasans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/firasans/firasans-medium-webfont.woff2') format('woff2'),
+		url('./assets/fonts/firasans/firasans-medium-webfont.woff') format('woff'),
+		url('./assets/fonts/firasans/firasans-medium-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FS-bold';
+	src: url('./assets/fonts/firasans/firasans-bold-webfont.eot');
+	src: url('./assets/fonts/firasans/firasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/firasans/firasans-bold-webfont.woff2') format('woff2'),
+		url('./assets/fonts/firasans/firasans-bold-webfont.woff') format('woff'),
+		url('./assets/fonts/firasans/firasans-bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+@font-face {
+  font-family: 'Ariston';
+  src: url('./assets/fonts/ariston/ariston-webfont.eot');
+  src: url('./assets/fonts/ariston/ariston-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/ariston/ariston-webfont.woff2') format('woff2'),
+       url('./assets/fonts/ariston/ariston-webfont.woff') format('woff'),
+       url('./assets/fonts/ariston/ariston-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Davinci';
+  src: url('./assets/fonts/davinci/davinci-webfont.eot');
+  src: url('./assets/fonts/davinci/davinci-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/davinci/davinci-webfont.woff2') format('woff2'),
+       url('./assets/fonts/davinci/davinci-webfont.woff') format('woff'),
+       url('./assets/fonts/davinci/davinci-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'Brody';
+  src: url('./assets/fonts/brody/jabgndg5-webfont.eot');
+  src: url('./assets/fonts/brody/jabgndg5-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/brody/jabgndg5-webfont.woff2') format('woff2'),
+       url('./assets/fonts/brody/jabgndg5-webfont.woff') format('woff'),
+       url('./assets/fonts/brody/jabgndg5-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}

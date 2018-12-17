@@ -1,0 +1,23 @@
+.illustration-img-container {
+    box-sizing: border-box;
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    border: 1px solid rgba(126,113,101,0.2);
+    border-radius: 6px;
+    margin: 5px;
+    overflow: hidden;
+}
+.illustration-img-container:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.13);
+    transition: box-shadow 0.2s;
+}
+.illustration-img-container img {
+    margin-top: -15px;
+    height: 220px;
+    width: 176px;
+}
+.active {
+    border: 2px solid #8dbc55;
+}

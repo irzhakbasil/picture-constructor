@@ -1,0 +1,24 @@
+.picture-img-container {
+    height: 170px;
+    width: 140px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgba(126,113,101,0.2);
+    border-radius: 5px;
+    margin: 5px;
+}
+.picture-img-container:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.13);
+    transition: box-shadow 0.2s;
+}
+.picture-img-container img {
+    margin-top: -5px;
+    margin-left: 3px;
+    height: 180px;
+    width: 136px;
+}
+
+.frame-active {
+    border: 1px solid #8dbc55;
+}

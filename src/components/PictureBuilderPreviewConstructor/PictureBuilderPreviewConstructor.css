@@ -1,0 +1,20 @@
+.picture-builder-previev__container {
+    position: relative;
+    box-sizing: border-box;
+    max-height: 450px;
+    padding: 25px 27px;
+    background-color: #E6E3E1;
+    overflow: hidden;
+}
+
+.picture-builder__frame,
+.picture-builder__picture {
+    position: absolute;
+    height: 300px;
+}
+.picture-builder__picture{
+    z-index: 0;
+}
+.picture-builder__frame {
+    z-index: 1;
+}

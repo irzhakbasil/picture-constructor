@@ -1,0 +1,39 @@
+.green {
+    color: #8dbc55;
+}
+  
+.price span {
+  display: inline-block;
+}
+.price {
+    margin-top: 30px;
+    box-sizing: border-box;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.total_text {
+    color: #7e7165;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+    line-height: 90px;
+}
+.total__currency {
+    margin-right: 10px;
+}
+.sum {
+    width: 96px;
+    margin-right: 10px;
+    text-align: center;
+    text-align: right;
+    font-size: 60px;
+    font-family: FS-bold;
+}
+.total_text,
+.total__currency,
+.sum {
+    font-family: 'FS-medium';
+    line-height: 40px;
+}

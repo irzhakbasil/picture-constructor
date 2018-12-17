@@ -1,0 +1,118 @@
+.app-wraper {
+  max-width: 936px;
+  min-width: 936px;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  border: 1px solid rgba(126,113,101,0.2);
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr 2fr;
+  grid-template-rows: 0.3fr 2.3fr 0.4fr;
+  grid-template-areas: "picture-builder_nav picture-builder_nav picture-builder_nav picture-builder_nav ." "routes routes routes routes ." "empty empty price price .";
+}
+
+.picture-builder_nav { grid-area: picture-builder_nav; }
+
+.empty { grid-area: empty; }
+
+.price { grid-area: price; }
+
+.sliding-components { grid-area: routes; }
+
+.result-title {
+  background-color: #E6E3E1;
+  border-top-right-radius: 5px;
+  display: block;
+  width: 274px;
+  border-bottom: 1px solid rgba(126,113,101,0.2);
+  font-size: 18px;
+  font-family: "FS-medium";
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  overflow: hidden;
+}
+.result-title p {
+  margin: 0;
+  padding: 0;
+  color: #7e7165;
+}
+
+.routes {
+  height: 450px;
+}
+
+.submit-picture {
+  height: 90px;
+  background-color: #E6E3E1;
+  
+}
+h1 {
+  display: block;
+  margin: 0 auto 20px;
+  height: 50px; 
+  width: 250px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #8dbc55;
+  color: #fff;
+  font-size: 18px;
+  line-height: 55px;
+  font-family: "FS-medium";
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.submit-button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  height: 50px;
+  width: 250px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #8dbc55;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  line-height: 55px;
+  font-family: "FS-medium";
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.submit-button:hover {
+  cursor: pointer;
+}
+
+.fadeTranslate-enter {
+  opacity: 0;
+  transform: translateX(0, -100px);
+  position: relative;
+}
+
+.fadeTranslate-enter.fadeTranslate-enter-active {
+  opacity: 1;
+  transform: translateX(20vh, 50vh);
+  transition: opacity 150ms ease-in 150ms, transform 150ms ease-in-out 150ms;
+}
+
+.fadeTranslate-exit {
+  opacity: 1;
+  position: fixed;
+  transform: translateX(40vh, 80vh);
+}
+
+.fadeTranslate-exit.fadeTranslate-exit-active {
+  opacity: 0;
+  transform: translateX(70vh, 100px);
+  transition: opacity 100ms ease-in, transform 100ms ease-in-out;
+}
+
+.fix-container {
+  position: fixed;
+}
