@@ -1,2 +1,2 @@
-Aplication using React, Redux, Redux Tunk, React Router, FireBase
+Aplication using React, Redux, Redux Thunk, React Router, FireBase
 ![](constructor.gif)
